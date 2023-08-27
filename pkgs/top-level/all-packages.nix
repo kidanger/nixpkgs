@@ -20010,6 +20010,8 @@ with pkgs;
 
   reno = callPackage ../development/tools/reno { };
 
+  renovate = callPackage ../development/tools/renovate { };
+
   re2c = callPackage ../development/tools/parsing/re2c { };
 
   remake = callPackage ../development/tools/build-managers/remake { };
